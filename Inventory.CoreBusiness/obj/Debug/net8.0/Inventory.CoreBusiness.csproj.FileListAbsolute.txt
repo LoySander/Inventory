@@ -1,0 +1,11 @@
+D:\Development\MyInventory\Inventory.CoreBusiness\bin\Debug\net8.0\Inventory.CoreBusiness.deps.json
+D:\Development\MyInventory\Inventory.CoreBusiness\bin\Debug\net8.0\Inventory.CoreBusiness.dll
+D:\Development\MyInventory\Inventory.CoreBusiness\bin\Debug\net8.0\Inventory.CoreBusiness.pdb
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.AssemblyInfoInputs.cache
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.AssemblyInfo.cs
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.csproj.CoreCompileInputs.cache
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.dll
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\refint\Inventory.CoreBusiness.dll
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.pdb
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\ref\Inventory.CoreBusiness.dll

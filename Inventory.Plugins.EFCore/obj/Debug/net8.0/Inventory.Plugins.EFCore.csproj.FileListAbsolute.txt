@@ -1,0 +1,17 @@
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.Plugins.EFCore.deps.json
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.Plugins.EFCore.dll
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.Plugins.EFCore.pdb
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.CoreBusiness.dll
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.UseCase.dll
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.UseCase.pdb
+D:\Development\MyInventory\Inventory.Plugins.EFCore\bin\Debug\net8.0\Inventory.CoreBusiness.pdb
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.csproj.AssemblyReference.cache
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.AssemblyInfoInputs.cache
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.AssemblyInfo.cs
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.csproj.CoreCompileInputs.cache
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventor.09DAE8CC.Up2Date
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.dll
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\refint\Inventory.Plugins.EFCore.dll
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.pdb
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\ref\Inventory.Plugins.EFCore.dll

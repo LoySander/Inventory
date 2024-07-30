@@ -1,0 +1,34 @@
+﻿@page "/addinventory"
+@inject IAddInventoryUseCase AddInventoryUseCase
+@inject NavigationManager NavigationManager
+@using Inventory.CoreBusiness
+
+<h3>AddInventory</h3>
+<br/>
+@if(tool!=null){
+    <EditForm Model="@tool" method="post" OnSubmit="OnSubmit" FormName="tool">
+        <div class="form-group">
+            <label for="name">Inventory Name</label>
+            <InputText id="name" @bind-Value="tool.InventoryName" class="form-control"></InputText>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm> 
+}
+@code {
+    private Inventory tool;
+    
+
+    protected override void OnInitialized(){
+        base.OnInitialized();
+        tool = new Inventory();
+    }
+
+    private async Task OnSubmit(){
+
+        if (this.tool != null)
+        {
+            await AddInventoryUseCase.ExecuteAsync(this.tool);
+            NavigationManager.NavigateTo("/inventory");
+        }
+    }
+}

@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development\\MyInventory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\pages\\addinventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\pages\\addinventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B9EF-5BC4-49C6-A1FE-BF5A06CE3ABB}|Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj|d:\\development\\myinventory\\inventory.plugins.efcore\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E3B9EF-5BC4-49C6-A1FE-BF5A06CE3ABB}|Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj|solutionrelative:inventory.plugins.efcore\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B11FFA-8A7E-4534-8A91-75981E742AEB}|Inventory.CoreBusiness\\Inventory.CoreBusiness.csproj|d:\\development\\myinventory\\inventory.corebusiness\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B11FFA-8A7E-4534-8A91-75981E742AEB}|Inventory.CoreBusiness\\Inventory.CoreBusiness.csproj|solutionrelative:inventory.corebusiness\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\pages\\inventorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\pages\\inventorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\myinventory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\myinventory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|d:\\development\\myinventory\\inventory.usecase\\interfaces\\iaddinventoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|solutionrelative:inventory.usecase\\interfaces\\iaddinventoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B9EF-5BC4-49C6-A1FE-BF5A06CE3ABB}|Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj|d:\\development\\myinventory\\inventory.plugins.efcore\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E3B9EF-5BC4-49C6-A1FE-BF5A06CE3ABB}|Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj|solutionrelative:inventory.plugins.efcore\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B9EF-5BC4-49C6-A1FE-BF5A06CE3ABB}|Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj|d:\\development\\myinventory\\inventory.plugins.efcore\\inventory.plugins.efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{99E3B9EF-5BC4-49C6-A1FE-BF5A06CE3ABB}|Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj|solutionrelative:inventory.plugins.efcore\\inventory.plugins.efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\controls\\viewinventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\controls\\viewinventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|d:\\development\\myinventory\\inventory.usecase\\plugininterfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|solutionrelative:inventory.usecase\\plugininterfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|d:\\development\\myinventory\\inventory.usecase\\addinventoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|solutionrelative:inventory.usecase\\addinventoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|d:\\development\\myinventory\\inventory.usecase\\interfaces\\iviewinventoriesbynameusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58123FE8-C209-4199-A39D-A5E5366CE1DE}|Inventory.UseCase\\Inventory.UseCase.csproj|solutionrelative:inventory.usecase\\interfaces\\iviewinventoriesbynameusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|d:\\development\\myinventory\\myinventory\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF6D5CE-170E-42E9-874C-BE6A24395956}|MyInventory\\MyInventory.csproj|solutionrelative:myinventory\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddInventory.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\AddInventory.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Pages\\AddInventory.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\AddInventory.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Pages\\AddInventory.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:55:19.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddInventoryUseCase.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.UseCase\\AddInventoryUseCase.cs",
+              "RelativeDocumentMoniker": "Inventory.UseCase\\AddInventoryUseCase.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.UseCase\\AddInventoryUseCase.cs",
+              "RelativeToolTip": "Inventory.UseCase\\AddInventoryUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:39:59.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Routes.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Routes.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:19:24.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:01:27.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryList.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\InventoryList.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Pages\\InventoryList.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\InventoryList.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Pages\\InventoryList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T11:42:39.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.CoreBusiness\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventory.CoreBusiness\\Inventory.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.CoreBusiness\\Inventory.cs",
+              "RelativeToolTip": "Inventory.CoreBusiness\\Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:50:59.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryContext.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.Plugins.EFCore\\InventoryContext.cs",
+              "RelativeDocumentMoniker": "Inventory.Plugins.EFCore\\InventoryContext.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.Plugins.EFCore\\InventoryContext.cs",
+              "RelativeToolTip": "Inventory.Plugins.EFCore\\InventoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:52:59.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.Plugins.EFCore\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "Inventory.Plugins.EFCore\\InventoryRepository.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.Plugins.EFCore\\InventoryRepository.cs",
+              "RelativeToolTip": "Inventory.Plugins.EFCore\\InventoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:50:47.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyInventory.csproj",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\MyInventory.csproj",
+              "RelativeDocumentMoniker": "MyInventory\\MyInventory.csproj",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\MyInventory.csproj",
+              "RelativeToolTip": "MyInventory\\MyInventory.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-29T09:44:51.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T10:57:28.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAddInventoryUseCase.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.UseCase\\Interfaces\\IAddInventoryUseCase.cs",
+              "RelativeDocumentMoniker": "Inventory.UseCase\\Interfaces\\IAddInventoryUseCase.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.UseCase\\Interfaces\\IAddInventoryUseCase.cs",
+              "RelativeToolTip": "Inventory.UseCase\\Interfaces\\IAddInventoryUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:52:06.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.UseCase\\PluginInterfaces\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "Inventory.UseCase\\PluginInterfaces\\IInventoryRepository.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.UseCase\\PluginInterfaces\\IInventoryRepository.cs",
+              "RelativeToolTip": "Inventory.UseCase\\PluginInterfaces\\IInventoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:47:18.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Inventory.Plugins.EFCore.csproj",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj",
+              "RelativeDocumentMoniker": "Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj",
+              "RelativeToolTip": "Inventory.Plugins.EFCore\\Inventory.Plugins.EFCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-29T14:07:14.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewInventory.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Controls\\ViewInventory.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Controls\\ViewInventory.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Controls\\ViewInventory.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Controls\\ViewInventory.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T10:58:09.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IViewInventoriesByNameUseCase.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\Inventory.UseCase\\Interfaces\\IViewInventoriesByNameUseCase.cs",
+              "RelativeDocumentMoniker": "Inventory.UseCase\\Interfaces\\IViewInventoriesByNameUseCase.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\Inventory.UseCase\\Interfaces\\IViewInventoriesByNameUseCase.cs",
+              "RelativeToolTip": "Inventory.UseCase\\Interfaces\\IViewInventoriesByNameUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:52:18.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\App.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\App.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\App.razor",
+              "RelativeToolTip": "MyInventory\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:19:26.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Program.cs",
+              "RelativeDocumentMoniker": "MyInventory\\Program.cs",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Program.cs",
+              "RelativeToolTip": "MyInventory\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAC4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:41:33.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\_Imports.razor",
+              "RelativeToolTip": "MyInventory\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:19:24.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:19:31.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Development\\MyInventory\\MyInventory\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MyInventory\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Development\\MyInventory\\MyInventory\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MyInventory\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T12:19:47.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

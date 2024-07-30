@@ -1,0 +1,15 @@
+D:\Development\MyInventory\Inventory.UseCase\bin\Debug\net8.0\Inventory.UseCase.deps.json
+D:\Development\MyInventory\Inventory.UseCase\bin\Debug\net8.0\Inventory.UseCase.dll
+D:\Development\MyInventory\Inventory.UseCase\bin\Debug\net8.0\Inventory.UseCase.pdb
+D:\Development\MyInventory\Inventory.UseCase\bin\Debug\net8.0\Inventory.CoreBusiness.dll
+D:\Development\MyInventory\Inventory.UseCase\bin\Debug\net8.0\Inventory.CoreBusiness.pdb
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.csproj.AssemblyReference.cache
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.AssemblyInfoInputs.cache
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.AssemblyInfo.cs
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.csproj.CoreCompileInputs.cache
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventor.C09E17BF.Up2Date
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.dll
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\refint\Inventory.UseCase.dll
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.pdb
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\ref\Inventory.UseCase.dll

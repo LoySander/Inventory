@@ -9,3 +9,4 @@ D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.Cor
 D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\refint\Inventory.CoreBusiness.dll
 D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.pdb
 D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\ref\Inventory.CoreBusiness.dll
+D:\Development\MyInventory\Inventory.CoreBusiness\obj\Debug\net8.0\Inventory.CoreBusiness.sourcelink.json

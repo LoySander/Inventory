@@ -20,8 +20,24 @@ namespace Inventory.Plugins.EFCore
 
         public async Task AddInventoryAsync(CoreBusiness.Inventory inventory)
         {
+            if (this.db.Inventories.Any(x => x.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase))) return;
             this.db.Inventories.Add(inventory);
             await this.db.SaveChangesAsync();
+        }
+
+        public async Task EditInventoryAsync(CoreBusiness.Inventory inventory)
+        {
+            if(this.db.Inventories.Any(x=> x.InventoryId != inventory.InventoryId && x.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase))) return;
+            var inv =  await this.db.Inventories.FindAsync(inventory.InventoryId);
+            if (inv != null) {
+                inv.InventoryName = inventory.InventoryName;
+                await this.db.SaveChangesAsync();
+            }        
+        }
+
+        public async Task<CoreBusiness.Inventory> GetInventoryAsync(int invetoryId)
+        {
+            return await this.db.Inventories.FindAsync(invetoryId);
         }
     }
 }

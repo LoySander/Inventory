@@ -12,6 +12,10 @@ namespace Inventory.UseCase.PluginInterfaces
         Task<IEnumerable<CoreBusiness.Inventory>> GetInventoriesByName(string name);
 
         Task AddInventoryAsync(CoreBusiness.Inventory inventory);
+        Task EditInventoryAsync(CoreBusiness.Inventory inventory);
+
+        Task<CoreBusiness.Inventory> GetInventoryAsync(int inventoryId);
+        
     }
 }
  

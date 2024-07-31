@@ -15,3 +15,4 @@ D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.P
 D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\refint\Inventory.Plugins.EFCore.dll
 D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.pdb
 D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\ref\Inventory.Plugins.EFCore.dll
+D:\Development\MyInventory\Inventory.Plugins.EFCore\obj\Debug\net8.0\Inventory.Plugins.EFCore.sourcelink.json

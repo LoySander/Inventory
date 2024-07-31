@@ -13,3 +13,4 @@ D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.
 D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\refint\Inventory.UseCase.dll
 D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.pdb
 D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\ref\Inventory.UseCase.dll
+D:\Development\MyInventory\Inventory.UseCase\obj\Debug\net8.0\Inventory.UseCase.sourcelink.json

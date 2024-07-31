@@ -20,7 +20,7 @@
                     <td>@x.InventoryId</td>
                     <td>@x.InventoryName</td>
                     <td> 
-                         <button type="button" class="btn btn-light">Edit</button>
+                         <button type="button" class="btn btn-light" @onclick="@(()=>EditInventory(x.InventoryId))">Edit</button>
                     </td>
                 </tr>
             }
@@ -32,7 +32,13 @@
 @code {
     private List<Inventory.CoreBusiness.Inventory> inventories;
 
+    protected override async Task OnInitializedAsync()
+    {
 
+        var invs = await ViewInventoriesByNameUseCase.ExecuteAsync();
+        this.inventories = invs.ToList();
+
+    }
     private void OnSearchInventories(List<Inventory.CoreBusiness.Inventory> inventories)
     {
         this.inventories = inventories;
@@ -40,5 +46,14 @@
     private void AddInventory(){
         NavigationManager.NavigateTo("/addinventory");
     }
+
+    private void EditInventory(int Id)
+    {
+        NavigationManager.NavigateTo($"/editinventory/{Id}");
+    }
+    // private void EditInventory()
+    // {
+    //     NavigationManager.NavigateTo($"/editinventory/{Id}");
+    // }
 }
 

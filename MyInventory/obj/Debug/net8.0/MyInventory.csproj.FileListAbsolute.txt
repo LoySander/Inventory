@@ -147,3 +147,4 @@ D:\Development\MyInventory\MyInventory\obj\Debug\net8.0\refint\MyInventory.dll
 D:\Development\MyInventory\MyInventory\obj\Debug\net8.0\MyInventory.pdb
 D:\Development\MyInventory\MyInventory\obj\Debug\net8.0\MyInventory.genruntimeconfig.cache
 D:\Development\MyInventory\MyInventory\obj\Debug\net8.0\ref\MyInventory.dll
+D:\Development\MyInventory\MyInventory\obj\Debug\net8.0\MyInventory.sourcelink.json

@@ -35,4 +35,10 @@
     <UpToDateCheckInput Remove="Components\Test.razor" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Components\Controls\ViewServer.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -1,7 +1,8 @@
 using Inventory.Plugins.EFCore;
-using Inventory.UseCase;
 using Inventory.UseCase.Interfaces;
+using Inventory.UseCase.Inventory;
 using Inventory.UseCase.PluginInterfaces;
+using Inventory.UseCase.Servers;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -38,19 +39,22 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddDefaultTokenProviders();
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
-builder.Services.AddDbContext<InventoryContext>(options =>
+builder.Services.AddDbContext<IMSContext>(options =>
 {
     options.UseInMemoryDatabase("Inventory");
 });
 builder.Services.AddTransient<IInventoryRepository, InventoryRepository>();
+builder.Services.AddTransient<IServerRepository, ServerRepository>();
+
 builder.Services.AddTransient<IViewInventoriesByNameUseCase, ViewInventoriesByNameUseCase>();
 builder.Services.AddTransient<IAddInventoryUseCase, AddInventoryUseCase>();
 builder.Services.AddTransient<IEditInventoryUseCase, EditInventoryUseCase>();
 builder.Services.AddTransient<IViewInventoryByIdUseCase, ViewInventoryByIdUseCase>();
+builder.Services.AddTransient<IViewServerByNameUseCase, ViewServersByNameUseCase>();
 
 var app = builder.Build();
 var scope = app.Services.CreateScope();
-var inventoryContext = scope.ServiceProvider.GetRequiredService<InventoryContext>();
+var inventoryContext = scope.ServiceProvider.GetRequiredService<IMSContext>();
 inventoryContext.Database.EnsureDeleted();
 inventoryContext.Database.EnsureCreated();
 

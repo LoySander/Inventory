@@ -8,20 +8,26 @@ using Inventory.CoreBusiness;
 
 namespace Inventory.Plugins.EFCore
 {
-    public class InventoryContext : DbContext
+    public class IMSContext : DbContext
     {
-        public InventoryContext(DbContextOptions options) : base(options)
+        public IMSContext(DbContextOptions options) : base(options)
         {
 
         }
 
         public DbSet<Inventory.CoreBusiness.Inventory> Inventories { get; set; }
 
+        public DbSet<Inventory.CoreBusiness.Server> Servers { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Inventory.CoreBusiness.Inventory>().HasData(
-                new Inventory.CoreBusiness.Inventory { InventoryId = 1, InventoryName = "HP Proliant" }
+                new Inventory.CoreBusiness.Inventory { InventoryId = 1, InventoryName = "PC 1" }
             );
+
+            modelBuilder.Entity<Inventory.CoreBusiness.Server>().HasData(
+               new Inventory.CoreBusiness.Server { ServerId = 1, ServerVendor = "HP", ServerName= "Proliant" }
+           );
         }
     }
 }

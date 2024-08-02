@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Inventory.UseCase.PluginInterfaces;
 using Inventory.UseCase.Interfaces;
 
-namespace Inventory.UseCase
+namespace Inventory.UseCase.Inventory
 {
-    public class ViewInventoryByIdUseCase: IViewInventoryByIdUseCase
+    public class ViewInventoryByIdUseCase : IViewInventoryByIdUseCase
     {
         private readonly IInventoryRepository inventoryRepository;
 
@@ -17,7 +17,7 @@ namespace Inventory.UseCase
             this.inventoryRepository = inventoryRepository;
         }
 
-        public async Task<Inventory.CoreBusiness.Inventory> ExecuteAsync(int invetoryId)
+        public async Task<CoreBusiness.Inventory> ExecuteAsync(int invetoryId)
         {
             return await inventoryRepository.GetInventoryAsync(invetoryId);
         }

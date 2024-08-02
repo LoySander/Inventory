@@ -3,7 +3,8 @@ using Inventory.UseCase.PluginInterfaces;
 using Inventory.CoreBusiness;
 using Inventory.UseCase.Interfaces;
 
-namespace Inventory.UseCase;
+
+namespace Inventory.UseCase.Inventory;
 public class ViewInventoriesByNameUseCase : IViewInventoriesByNameUseCase
 {
     private readonly IInventoryRepository inventoryRepository;
@@ -11,8 +12,10 @@ public class ViewInventoriesByNameUseCase : IViewInventoriesByNameUseCase
     {
         this.inventoryRepository = inventoryRepository;
     }
-    public async Task<IEnumerable<Inventory.CoreBusiness.Inventory>> ExecuteAsync(string name = "")
+    public async Task<IEnumerable<CoreBusiness.Inventory>> ExecuteAsync(string name = "")
     {
-        return await this.inventoryRepository.GetInventoriesByName(name);
+        return await inventoryRepository.GetInventoriesByName(name);
     }
+
+   
 }

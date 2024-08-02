@@ -1,0 +1,33 @@
+﻿@using Inventory.CoreBusiness;
+@using Inventory.UseCase.Servers;
+@using Inventory.UseCase.Interfaces;
+
+@inject IViewServerByNameUseCase ViewServersByNameUseCase
+<div class="input-group mb-3">
+    <input type="text"
+        class="form-control form-control-lg"
+        placeholder="Type server name here to search"
+           @bind-value=serverNameToSearch />
+        <button type="button" class="input-group-text btn-success"
+        @onclick="@( async()=> {await ViewServers(); })">Find</button>
+</div>
+<br/>
+@* @if (inventories != null && inventories.Count > 0)
+{
+    <table>
+
+    </table>
+} *@
+@code {
+    private string? serverNameToSearch;
+    private List<Server>? servers;
+    [Parameter]
+    public EventCallback<List<Server>> OnSearchServers{ get; set; }
+
+    private async Task ViewServers()
+    {
+        servers = (await ViewServersByNameUseCase.ExecuteAsync(serverNameToSearch ?? string.Empty))?.ToList();
+
+        await OnSearchServers.InvokeAsync(servers);
+    }
+}

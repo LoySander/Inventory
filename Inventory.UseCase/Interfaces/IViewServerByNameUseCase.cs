@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Inventory.UseCase.Interfaces
 {
-    public interface IViewInventoryByIdUseCase
+    public interface IViewServerByNameUseCase
     {
-        Task<CoreBusiness.Inventory> ExecuteAsync(int inventoryId);
+        Task<IEnumerable<CoreBusiness.Server>> ExecuteAsync(string name = "");
     }
 }

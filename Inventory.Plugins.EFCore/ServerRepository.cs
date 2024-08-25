@@ -22,5 +22,23 @@ namespace Inventory.Plugins.EFCore
             return await this.db.Servers.Where(x => x.ServerName.Contains(name, StringComparison.OrdinalIgnoreCase)
                                                    || string.IsNullOrWhiteSpace(name)).ToListAsync();
         }
+
+        public async Task EditServerAsync(CoreBusiness.Server server)
+        {
+            if (this.db.Servers.Any(x => x.ServerId != server.ServerId && x.ServerName.Equals(server.ServerName, StringComparison.OrdinalIgnoreCase))) return;
+            var inv = await this.db.Servers.FindAsync(server.ServerId);
+            if (inv != null)
+            {
+                inv.ServerName = server.ServerName;
+                await this.db.SaveChangesAsync();
+            }
+        }
+        public async Task AddServerAsync(CoreBusiness.Server server)
+        {
+            if (this.db.Servers.Any(x => x.ServerName.Equals(server.ServerName, StringComparison.OrdinalIgnoreCase))) return;
+            this.db.Servers.Add(server);
+            await this.db.SaveChangesAsync();
+        }
+
     }
 }

@@ -1,0 +1,44 @@
+﻿@page "/addserver"
+@inject IAddServerUseCase AddServerUseCase
+@inject NavigationManager NavigationManager
+@using Inventory.CoreBusiness
+@rendermode RenderMode.InteractiveServer
+
+<h3>AddServer</h3>
+<br/>
+@if(server!=null){
+    <EditForm Model="@server" method="post" OnSubmit="OnSubmit" FormName="server">
+        <div class="form-group">
+            <label for="name">Server Name</label>
+            <InputText id="name" @bind-Value="server.ServerName" class="form-control"></InputText>
+        </div>
+        <div class="form-group">
+            <label for="name">Server Vendor</label>
+            <InputText id="name" @bind-Value="server.ServerName" class="form-control"></InputText>
+        </div>
+        <ServerVendorsComponent @ref="serverVendorsComponent"></ServerVendorsComponent>
+        <br />
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+    
+}
+@code {
+    private Server server;
+
+    private ServerVendorsComponent serverVendorsComponent;
+
+    protected override void OnInitialized(){
+        base.OnInitialized();
+        server = new Server();
+    }
+
+    private async Task OnSubmit(){
+
+        if (this.server!= null)
+        {
+            await AddServerUseCase.ExecuteAsync(this.server);
+            NavigationManager.NavigateTo("/servers");
+        }
+    }
+
+}

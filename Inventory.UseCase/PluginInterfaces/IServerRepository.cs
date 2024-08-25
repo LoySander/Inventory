@@ -11,6 +11,8 @@ namespace Inventory.UseCase.PluginInterfaces
     {
         public Task<List<Server>> GetServersByName(string name);
         
+        public Task EditServerAsync(Server server);
 
+        public Task AddServerAsync(Server server);
     }
 }

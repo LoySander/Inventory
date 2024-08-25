@@ -1,0 +1,24 @@
+﻿@using Inventory.CoreBusiness;
+
+@if (server != null)
+{
+     <tr>
+                <td>@server.ServerId</td>
+                <td>@server.ServerName</td>
+                <td>@server.ServerName</td>
+                <td>
+                    <button type="button" class="btn btn-light" @onclick="@(()=>EditServer(server.ServerId))">Edit</button>
+                </td>
+            </tr>
+} 
+@code {
+    
+    [Parameter]
+    public Server server { get; set; }
+
+  
+    private void EditServer(int serverId)
+    {
+
+    }
+}

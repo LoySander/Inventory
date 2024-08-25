@@ -1,0 +1,53 @@
+﻿@using Inventory.CoreBusiness;
+@using Inventory.UseCase.Vendors;
+@using Inventory.UseCase.Interfaces;
+
+@inject IViewVendorByNameUseCase ViewVendorByNameUseCase
+<div class="input-group mb-3">
+    <input type="text"
+        class="form-control form-control-lg"
+        placeholder="Type server name here to search"
+           @bind-value=vendorNameToSearch />
+        <button type="button" class="input-group-text btn-success"
+        @onclick="@( async()=> {await ViewVendors(); })">View</button>
+</div>
+<br/>
+@if(this.DisplaySearchResult && vendors != null)
+{
+    <div style="overflow-y auto; max-height:300px">
+        <ul style="list-style-type:none">
+            @foreach(var ven in vendors)
+            {
+                <li style="cursor:pointer" @onclick="@(async()=>{await SelectVendor(ven);})"
+                    @key="ven.VendorId">@ven.VendorName</li>
+            }
+        </ul>
+    </div>
+}
+@code {
+    private string? vendorNameToSearch;
+    private List<Vendor>? vendors;
+    private Vendor selectedVendor;
+
+    [Parameter]
+    public EventCallback<Vendor> OnSelectedVendor { get; set; }
+    [Parameter]
+    public EventCallback<List<Vendor>> OnSearchVendors{ get; set; }
+
+    [Parameter]
+    public bool DisplaySearchResult { get; set; } = false;
+
+    private async Task ViewVendors()
+    {
+        var vends= (await ViewVendorByNameUseCase.ExecuteAsync(vendorNameToSearch ?? string.Empty))?.ToList();
+
+        await OnSearchVendors.InvokeAsync(vends);
+        this.vendors = vends;
+        this.selectedVendor = null;
+    }
+    private async Task SelectVendor(Vendor vendor)
+    {
+        await OnSelectedVendor.InvokeAsync(vendor);
+        selectedVendor = vendor;
+    }
+}

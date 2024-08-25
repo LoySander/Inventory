@@ -9,8 +9,10 @@ namespace Inventory.CoreBusiness
     public class Server
     {
         public int ServerId {  get; set; }
-        public string ServerVendor {  get; set; }
+        public string VendorName {  get; set; }
         public string ServerName { get; set; }
+
+        public Vendor Vendor { get; set; }
 
     }
 }

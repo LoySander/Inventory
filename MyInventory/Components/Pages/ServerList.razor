@@ -1,0 +1,50 @@
+﻿@page "/servers"
+@rendermode InteractiveServer
+@inject IViewServerByNameUseCase ViewServerByNameUseCase
+@inject NavigationManager NavigationManager
+
+<h3>ServerList</h3>
+<br />
+<ViewServer OnSearchServers="OnSearchServers"></ViewServer>
+@if (listServers != null && listServers.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ServerId</th>
+                <th>Vendor</th>
+                <th>ServerName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var server in this.listServers)
+            {
+               <ServerItem2Component server="server"></ServerItem2Component>
+            }
+        </tbody>
+    </table>
+    <button type="button" class="btn-primary" @onclick="AddServer">Add</button>
+}
+@code {
+    private List<Inventory.CoreBusiness.Server> listServers;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var serv = await ViewServerByNameUseCase.ExecuteAsync();
+        this.listServers = serv.ToList();
+
+    }
+
+    private void OnSearchServers(List<Inventory.CoreBusiness.Server> servers)
+    {
+
+        this.listServers = servers;
+
+    }
+
+    private void AddServer()
+    {
+        NavigationManager.NavigateTo("/addserver");
+    }
+}

@@ -2,9 +2,11 @@
 @rendermode InteractiveServer
 @inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
 @inject NavigationManager NavigationManager
+@using MyInventory.Components.Controls 
 <h3>InventoryList</h3>
 <br/>
-<ViewInventory OnSearchInventories="OnSearchInventories"></ViewInventory>
+<ViewInventory OnSearchInventories="OnSearchInventories"
+    DisplayOnSearchResult="true"></ViewInventory>
 @if (inventories != null && inventories.Count > 0)
 {
     <table class="table">
@@ -15,14 +17,9 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var x in this.inventories){
-                <tr>
-                    <td>@x.InventoryId</td>
-                    <td>@x.InventoryName</td>
-                    <td> 
-                         <button type="button" class="btn btn-light" @onclick="@(()=>EditInventory(x.InventoryId))">Edit</button>
-                    </td>
-                </tr>
+            @foreach (var inv in this.inventories){
+                
+                 <InventoryItem2Component inventory ="inv"></InventoryItem2Component>   
             }
         </tbody>
     </table>
@@ -47,10 +44,10 @@
         NavigationManager.NavigateTo("/addinventory");
     }
 
-    private void EditInventory(int Id)
-    {
-        NavigationManager.NavigateTo($"/editinventory/{Id}");
-    }
+    // private void EditInventory(int Id)
+    // {
+    //     NavigationManager.NavigateTo($"/editinventory/{Id}");
+    // }
     // private void EditInventory()
     // {
     //     NavigationManager.NavigateTo($"/editinventory/{Id}");

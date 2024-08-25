@@ -1,0 +1,37 @@
+﻿@using Inventory.CoreBusiness;
+@using Inventory.UseCase.Servers;
+@using Inventory.UseCase.Interfaces;
+
+<div class="form-group">
+    <label for="name">Vendors</label>
+    <ViewVendor DisplaySearchResult="true"
+                OnSelectedVendor="OnSelectedVendor"></ViewVendor>
+</div>
+@if (vendor != null)
+{
+    <ul>
+       @*  @foreach (var ven in this.vendors)
+        { 
+            <li>@vendor.VendorName</li>
+       }  *@
+
+       <li>@vendor.VendorName &nbsp; <button class="btn btn-click" type="button" @onclick="@(()=>RemoveVendor())">Remove</button></li>
+    </ul>
+}
+@code{
+    //private List<Vendor> vendors = new List<Vendor>();
+    private Vendor vendor = null;
+    private void OnSelectedVendor(Vendor vendor)
+    {
+        // if(!vendors.Any(x=>x.VendorName.Equals(vendor.VendorName, StringComparison.OrdinalIgnoreCase)))
+        // {
+        //     this.vendors.Add(vendor);
+        // }
+        this.vendor = vendor;
+    }
+
+    private void RemoveVendor()
+    {
+        this.vendor = null;
+    }
+}

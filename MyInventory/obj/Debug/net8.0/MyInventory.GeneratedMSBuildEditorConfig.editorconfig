@@ -174,6 +174,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Development/MyInventory/MyInventory/Components/Controls/InventoryItem2Component.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xJbnZlbnRvcnlJdGVtMkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyInventory/MyInventory/Components/Controls/ServerItem2Component.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2ZXJJdGVtMkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyInventory/MyInventory/Components/Controls/ServerVendorsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2ZXJWZW5kb3JzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyInventory/MyInventory/Components/Controls/VendorItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xWZW5kb3JJdGVtQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Development/MyInventory/MyInventory/Components/Controls/ViewInventory.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xWaWV3SW52ZW50b3J5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -182,8 +198,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xWaWV3U2VydmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Development/MyInventory/MyInventory/Components/Controls/ViewVendor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xWaWV3VmVuZG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Development/MyInventory/MyInventory/Components/Pages/AddInventory.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRJbnZlbnRvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyInventory/MyInventory/Components/Pages/AddServer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRTZXJ2ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Development/MyInventory/MyInventory/Components/Pages/Auth.razor]
@@ -208,6 +232,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Development/MyInventory/MyInventory/Components/Pages/InventoryList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnZlbnRvcnlMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyInventory/MyInventory/Components/Pages/ServerList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXJ2ZXJMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyInventory/MyInventory/Components/Pages/VendorList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW5kb3JMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Development/MyInventory/MyInventory/Components/Pages/Weather.razor]

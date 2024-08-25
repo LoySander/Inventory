@@ -1,0 +1,50 @@
+﻿@page "/vendors"
+@rendermode InteractiveServer
+@inject IViewVendorByNameUseCase ViewVendorByNameUseCase
+@inject NavigationManager NavigationManager
+
+<h3>VendorList</h3>
+<br />
+<ViewVendor OnSearchVendors="OnSearchVendors"
+    DisplaySearchResult="true"></ViewVendor>
+@if (listVendors != null && listVendors.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>VendorId</th>
+                <th>VendorName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vendor in this.listVendors)
+            {
+               <VendorItemComponent vendor="vendor"></VendorItemComponent>
+            }
+        </tbody>
+    </table>
+    @* <button type="button" class="btn-primary" @onclick="AddServer">Add</button> *@
+}
+@code {
+    private List<Inventory.CoreBusiness.Vendor> listVendors;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var ven = await ViewVendorByNameUseCase.ExecuteAsync();
+        this.listVendors = ven.ToList();
+
+    }
+
+    private void OnSearchVendors(List<Inventory.CoreBusiness.Vendor> vendors)
+    {
+
+        this.listVendors = vendors;
+
+    }
+
+    // private void AddServer()
+    // {
+    //     NavigationManager.NavigateTo("/addserver");
+    // }
+}

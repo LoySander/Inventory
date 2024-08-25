@@ -3,6 +3,7 @@ using Inventory.UseCase.Interfaces;
 using Inventory.UseCase.Inventory;
 using Inventory.UseCase.PluginInterfaces;
 using Inventory.UseCase.Servers;
+using Inventory.UseCase.Vendors;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -45,6 +46,8 @@ builder.Services.AddDbContext<IMSContext>(options =>
 });
 builder.Services.AddTransient<IInventoryRepository, InventoryRepository>();
 builder.Services.AddTransient<IServerRepository, ServerRepository>();
+builder.Services.AddTransient<IVendorRepository, VendorRepository>();
+
 
 builder.Services.AddTransient<IViewInventoriesByNameUseCase, ViewInventoriesByNameUseCase>();
 builder.Services.AddTransient<IAddInventoryUseCase, AddInventoryUseCase>();
@@ -52,6 +55,9 @@ builder.Services.AddTransient<IEditInventoryUseCase, EditInventoryUseCase>();
 builder.Services.AddTransient<IViewInventoryByIdUseCase, ViewInventoryByIdUseCase>();
 builder.Services.AddTransient<IViewServerByNameUseCase, ViewServersByNameUseCase>();
 
+
+builder.Services.AddTransient<IAddServerUseCase, AddServerUseCase>();
+builder.Services.AddTransient<IViewVendorByNameUseCase, ViewVendorByNameUseCase>();
 var app = builder.Build();
 var scope = app.Services.CreateScope();
 var inventoryContext = scope.ServiceProvider.GetRequiredService<IMSContext>();
